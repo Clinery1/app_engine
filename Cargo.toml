@@ -1,7 +1,10 @@
 [package]
+license = "MIT"
 name = "app_engine"
 version = "0.1.0"
 edition = "2024"
+authors = ["Christopher Nguyen (Clinery1)"]
+repository = "https://github.com/Clinery1/app_engine"
 
 [dependencies]
 anyhow = { version = "1.0.98", features = ["backtrace"] }
