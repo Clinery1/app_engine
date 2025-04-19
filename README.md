@@ -1,14 +1,14 @@
 # About
-This is a relatively simple crate that acts as kind of a framework for my future GUI applications so
-I:
-- Don't have to rewrite a renderer/UI/filepicker/config loader/etc. every time.
-- Allows updates to a common renderer when I want to update it or rewrite it to use bare Vulkan
+This is a relatively simple crate that acts as kind of a framework for my future GUI applications
+so:
+- I Don't have to rewrite a renderer/UI/filepicker/config loader/etc. every time.
+- I have a common renderer when I want to update it or rewrite it to use bare Vulkan
     instead of the `screen-13` crate.
-- Has a "good enough" renderer for UI and simple apps, but allows for more custom processes if
+- I have a "good enough" renderer for UI and simple apps, but allows for more custom processes if
     needed by having the entire renderer open and public.
-- Allow very easy hacking of the UI system
-- Make a "better" UI system than what I have used before (see [the UI explanation](#ui-explanation)
-    for more info)
+- I can easily hack the UI system
+- I have a "better" UI system than what I have used before (see
+    [the UI explanation](#ui-explanation) for more info)
 
 # UI explanation
 (NOTE: At the time of writing, the UI is not finished, but this outlines the goal)
